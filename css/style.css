@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    /* HEADER --------------------- */
+    header{
+        background-color: #161616;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-bar{
+        max-width: 80vw;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        /* background-color: red; */
+
+    }
+    .nav-left{
+        display: flex;
+        align-items: center;
+    }
+    .nav-left h2{
+        color: whitesmoke;
+        padding: 10px 20px;
+    }
+    .nav-items{
+        display: flex;
+        justify-content: center;
+    }
+    .nav-items li {
+        list-style: none;
+        color: white;
+        margin: 10px 20px;
+        font-size: 20px;
+    }
+    .nav-right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    input{
+        border: 1px solid whitesmoke;
+        border-radius: 5px;
+    }
+    input[placeholder]{
+        padding: 5px 10px;
+        font-size: 1rem;
+    }
+    #searchBtn{
+        margin: 0 20px;
+        padding: 5px 10px;
+        /* background-color: rgba(47, 50, 255, 0.883); */
+        border-radius: 10px;
+        
+    }
+
+    /* -------------------------Main------------------------------- */
+    .box{
+        max-width: 60vw;
+        margin: 20px auto;
+        border: 1px solid black;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .marginLeft{
+        margin-left: 60px;
+    }
+    #noteArea{
+        border: 1px solid black;
+        margin-top: 10px;
+    }
+    #addBtn{
+        border-radius: 5px;
+        display: block;
+        margin: 20px 70px;
+        padding: 5px 15px;
+    }
+/* -----------------Display Note------------ */
+.displayNote{
+    max-width: 75vw;
+    margin: auto;
+}
+    
